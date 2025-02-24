@@ -32,39 +32,27 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* About Section */
-.about {
+/* About Us Section */
+section {
     margin: 20px auto;
     width: 60%;
 }
 
-.image-placeholder {
+/* Image Placeholder */
+.placeholder {
     width: 600px;
     height: 400px;
     background-color: lightgray;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
     margin: 10px auto;
-    font-size: 20px;
-    color: black;
 }
 
 /* Services Section */
-.services {
-    width: 80%;
-    margin: 30px auto;
-}
-
-.services-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.service {
+section article {
+    display: inline-block;
     width: 45%;
     border: 1px solid #ccc;
     padding: 15px;
     background-color: white;
+    margin: 10px;
 }
